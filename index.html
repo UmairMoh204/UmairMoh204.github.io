@@ -1,13 +1,69 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hamza Mohammed</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head><body>
-<header><a class="logo" href="#top">Hamza Mohammed</a><nav><a href="#projects">Projects</a><a href="#about">About</a><a href="https://hamzastudio.co">Design portfolio</a></nav></header>
-<main id="top"><section class="intro"><p class="kicker">Designer + Developer</p><h1>I build digital products at the intersection of design and engineering.</h1><p class="intro-copy">Computer Science graduate from Macalester College with experience in UX design, research, and software development.</p><div class="intro-links"><a href="#projects">View projects ↓</a><a href="https://github.com/UmairMoh204">GitHub ↗</a></div></section>
-<section id="projects" class="projects"><div class="section-title"><h2>Projects</h2><div class="controls"><button class="prev">←</button><span class="counter">1 / 6</span><button class="next">→</button></div></div><div class="slider" tabindex="0"><div class="track">
-<article class="card"><div class="meta"><span>Full-stack</span><span>React · Django</span></div><h3>MyMarketPlace</h3><p>A marketplace application with authentication, listings, carts, orders, messaging, payments, and administrative tools.</p><div class="details"><div><b>Purpose</b><p>Understand how a complete product connects frontend state, REST APIs, data models, authentication, and third-party payments.</p></div><div><b>Built with</b><p>React, Django REST Framework, SQL, JWT, Stripe API, Swagger/OpenAPI</p></div></div></article>
-<article class="card"><div class="meta"><span>Data visualization</span><span>R · Shiny</span></div><h3>Extreme Weather Analysis</h3><p>An interactive exploration of a century of Minneapolis–Saint Paul temperature data and long-term weather trends.</p><div class="details"><div><b>Purpose</b><p>Make historical weather observations explorable through an interface rather than a static analysis.</p></div><div><b>Built with</b><p>R, Shiny, tidyverse, ggplot2, R Markdown</p></div></div><a class="project-link" href="https://github.com/UmairMoh204/Temperature-Project">Repository ↗</a></article>
-<article class="card"><div class="meta"><span>Desktop application</span><span>Python</span></div><h3>Checkers</h3><p>A desktop checkers game with turn state, captures, scoring, king pieces, restart controls, and game-rule handling.</p><div class="details"><div><b>Purpose</b><p>Translate a rule-heavy physical game into an interactive software system with clear state and feedback.</p></div><div><b>Built with</b><p>Python, Tkinter, Pillow, OOP, callbacks, state management</p></div></div><a class="project-link" href="https://github.com/UmairMoh204/Checkers_Game">Repository ↗</a></article>
-<article class="card"><div class="meta"><span>Desktop application</span><span>Python</span></div><h3>Tic-Tac-Toe</h3><p>A two-player desktop game with turn handling, win detection, tie states, replay flows, and user feedback.</p><div class="details"><div><b>Purpose</b><p>Practice event-driven programming by connecting interface actions directly to game state.</p></div><div><b>Built with</b><p>Python, Tkinter, OOP, callback functions</p></div></div><a class="project-link" href="https://github.com/UmairMoh204/TikTacToe">Repository ↗</a></article>
-<article class="card"><div class="meta"><span>Web development</span><span>Frontend</span></div><h3>Personal Website</h3><p>An evolving web project for experimenting with frontend development, interaction, layout, and modern frameworks.</p><div class="details"><div><b>Purpose</b><p>Learn new web technologies by applying them to a real interface and continuously shipping improvements.</p></div><div><b>Built with</b><p>HTML, CSS, JavaScript, React, Next.js, Spring, Spring Boot</p></div></div><a class="project-link" href="https://github.com/UmairMoh204/Personal_Website">Repository ↗</a></article>
-<article class="card"><div class="meta"><span>Desktop application</span><span>Java</span></div><h3>Car Rental Management</h3><p>A Java application with account creation, login, database connectivity, and a home interface for a car-rental workflow.</p><div class="details"><div><b>Purpose</b><p>Explore how authentication, persistent data, and multiple application screens work together.</p></div><div><b>Built with</b><p>Java, GUI development, database connectivity, authentication flows</p></div></div></article>
-</div></div><p class="hint">Use the arrows or swipe to browse projects.</p></section>
-<section id="about" class="about"><h2>About</h2><div><p>I studied Computer Science at Macalester College with a Cognitive Science concentration and Psychology minor. My experience includes UX design at Amazon PXT and UX research with the City of Saint Paul.</p><p>I’m interested in design engineering, UX engineering, creative prototyping, AI + HCI, and building products where design and technical decisions inform each other.</p></div></section></main>
-<footer><span>Hamza Mohammed</span><div><a href="https://github.com/UmairMoh204">GitHub</a><a href="https://www.linkedin.com/in/hamza-mohammed23/">LinkedIn</a><a href="https://hamzastudio.co">Portfolio</a></div></footer><script src="script.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Hamza Mohammed — designer and developer.">
+<title>Hamza Mohammed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><a class="logo" href="#top">HM.</a><nav><a href="#projects">Projects</a><a href="https://github.com/UmairMoh204" target="_blank">GitHub</a><a href="https://hamzastudio.co" target="_blank">UX Portfolio</a></nav></header>
+<main id="top">
+<section class="hero">
+  <p class="eyebrow">DESIGNER + DEVELOPER</p>
+  <h1>Hi, I'm Hamza.<br>I design and build digital products.</h1>
+  <p class="intro">Computer Science graduate from Macalester College with a background in UX design, research, and software development.</p>
+  <div class="actions"><a class="primary" href="#projects">View projects</a><a class="secondary" href="https://github.com/UmairMoh204" target="_blank">GitHub ↗</a></div>
+</section>
+
+<section id="projects" class="projects">
+  <div class="section-heading"><p>SELECTED WORK</p><h2>Projects</h2></div>
+  <div class="grid">
+    <article class="project">
+      <div class="project-head"><span>Full-stack</span><span>React · Django</span></div>
+      <h3>MyMarketPlace</h3>
+      <p>A full-stack marketplace with authentication, product listings, carts, orders, messaging, and Stripe payments.</p>
+      <p class="tools">React · Django REST · SQL · JWT · Stripe</p>
+    </article>
+    <article class="project">
+      <div class="project-head"><span>Data</span><span>R · Shiny</span></div>
+      <h3>Extreme Weather Analysis</h3>
+      <p>An interactive application for exploring more than a century of Minneapolis–Saint Paul temperature data and weather trends.</p>
+      <p class="tools">R · Shiny · tidyverse · ggplot2</p>
+      <a href="https://github.com/UmairMoh204/Temperature-Project" target="_blank">View repository ↗</a>
+    </article>
+    <article class="project">
+      <div class="project-head"><span>Desktop</span><span>Python</span></div>
+      <h3>Checkers</h3>
+      <p>A desktop checkers game with turn logic, captures, scoring, king pieces, and restart controls.</p>
+      <p class="tools">Python · Tkinter · Pillow · OOP</p>
+      <a href="https://github.com/UmairMoh204/Checkers_Game" target="_blank">View repository ↗</a>
+    </article>
+    <article class="project">
+      <div class="project-head"><span>Desktop</span><span>Python</span></div>
+      <h3>Tic-Tac-Toe</h3>
+      <p>A two-player desktop game with turn handling, win detection, tie states, and replay functionality.</p>
+      <p class="tools">Python · Tkinter · OOP</p>
+      <a href="https://github.com/UmairMoh204/TikTacToe" target="_blank">View repository ↗</a>
+    </article>
+    <article class="project">
+      <div class="project-head"><span>Web</span><span>Frontend</span></div>
+      <h3>Personal Website</h3>
+      <p>A web development project for experimenting with frontend interfaces, interaction, and modern frameworks.</p>
+      <p class="tools">HTML · CSS · JavaScript · React · Next.js</p>
+      <a href="https://github.com/UmairMoh204/Personal_Website" target="_blank">View repository ↗</a>
+    </article>
+    <article class="project">
+      <div class="project-head"><span>Desktop</span><span>Java</span></div>
+      <h3>Car Rental Management</h3>
+      <p>A Java application with account creation, login, database connectivity, and car-rental management flows.</p>
+      <p class="tools">Java · GUI · Database</p>
+    </article>
+  </div>
+</section>
+</main>
+<footer><span>© <span id="year"></span> Hamza Mohammed</span><div><a href="https://www.linkedin.com/in/hamza-mohammed23/" target="_blank">LinkedIn</a><a href="https://hamzastudio.co" target="_blank">Design Portfolio</a></div></footer>
+<script src="script.js"></script>
+</body></html>
